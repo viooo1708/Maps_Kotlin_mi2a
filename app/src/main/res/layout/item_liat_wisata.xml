@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardWisata"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgWisata"
+                android:src="@drawable/destinasi_wisata1"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Tempat Wisata"
+                android:layout_toRightOf="@id/imgWisata"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/tvNamaTempatWisata"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat/Lokasi"
+                android:id="@+id/tvAlamat"
+                android:layout_below="@id/tvNamaTempatWisata"
+                android:layout_toRightOf="@id/imgWisata"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"
+                />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
