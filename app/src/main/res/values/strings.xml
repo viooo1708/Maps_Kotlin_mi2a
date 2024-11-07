@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Maps_Kotlin_mi2a</string>
     <string name="title_activity_maps" />
+    <string name="title_activity_detail_wisata_maps">DetailWisataMapsActivity</string>
+    <string name="title_activity_maps_wisata">MapsWisataActivity</string>
+    <string name="API_KEY_MAP">AIzaSyDh61e6AXuJemStx4uZHZMouIFcw4oaeyU</string>
 </resources>

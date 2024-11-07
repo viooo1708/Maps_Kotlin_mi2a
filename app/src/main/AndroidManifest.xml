@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Maps_Kotlin_mi2a"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -28,10 +26,21 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDh61e6AXuJemStx4uZHZMouIFcw4oaeyU" />
+            android:value="@string/API_KEY_MAP" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MapsWisataActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps_wisata" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detail_wisata_maps" />
+        <activity
+            android:name=".DetailWisataMapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListWisataActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
